@@ -1,0 +1,20 @@
+VERSION="2.0.0"
+NETWORK_PASSPHRASE="Test SDF Network ; September 2015"
+ACCOUNTS=["GBKGUX3JX6N5LQIEB6W4U6K62VWW7MTGFDWIYHIVV5QSJ4CG5DTEDWMB"]
+SQ02_EASTER_EGG="Log into series 2 of Stellar Quest then visit quest.stellar.org/series2. Finally drag and drop your Stellar Quest series 2 badge PNG images onto the screen. Enjoy!"
+
+[DOCUMENTATION]
+ORG_NAME="Stellar Payment Monitor - Dear Little Galaxy,"
+ORG_DESCRIPTION="Monitoring real-time payment events for Lumens(XLM) and all other available assets currently settled on the Stellar Blockchain."
+
+[[CURRENCIES]]
+code="TEKOPI"
+issuer="GBKGUX3JX6N5LQIEB6W4U6K62VWW7MTGFDWIYHIVV5QSJ4CG5DTEDWMB"
+is_asset_anchored=false
+display_decimals=7
+
+[[CURRENCIES]]
+code="MEETPI"
+issuer="GBKGUX3JX6N5LQIEB6W4U6K62VWW7MTGFDWIYHIVV5QSJ4CG5DTEDWMB"
+is_asset_anchored=false
+display_decimals=7

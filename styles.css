@@ -1,0 +1,43 @@
+html,
+body {
+  font-family: Avenir, sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#hello-plan {
+  height: 100%;
+}
+.info {
+  position: absolute;
+  height: 30px;
+  line-height: 30px;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+}
+.data {
+  height: 30px;
+  font-size: 15px;
+  vertical-align: top;
+  display: none;
+}
+.data-item {
+  display: inline-block;
+  margin-right: 20px;
+}
+.title {
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.occupancy {
+  height: 30px;
+  display: inline-block;
+  vertical-align: top;
+}
+.count {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+}
